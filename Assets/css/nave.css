@@ -1,0 +1,126 @@
+body{
+    background-image: rgb(229, 238, 241);
+}
+.side-nav{
+    position: fixed;
+    width: 250px;
+    color: white;
+    height: 100%;
+    background-color: rgb(41, 39, 39);
+    box-shadow: 1px 0px 5px rgba(10, 10, 10, 0.5);
+    z-index: 999;
+}
+.img{
+    border-radius: 50%;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.p-top-10{
+    padding-top: 15px;
+}
+.h-font{
+    font-size: 18px;
+}
+.c-font{
+    font-size: 16px;
+}
+.no-margin{
+    margin: 0;
+}
+.font-bold{
+    font-weight: bold;
+}
+.p-10{
+    padding: 10px;
+}
+.font-32{
+    font-size: 32px;
+}
+.social-media{
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 100px);
+    transform: translate(0,-50%);
+}
+.social-media a i{
+    color: white;
+}
+.social-media a i:hover{
+    color:rgb(23, 66, 255);
+}
+.bg-color-dark{
+    background-color: rgb(31, 30, 30);
+}
+.content{
+    margin-left: 250px;
+}
+.content-header{
+    border-bottom: 3px solid rgb(41, 39, 39);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(41, 39, 39);
+}
+.p-left-right{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.border-sqr{
+    border: 3px solid white;
+}
+.f-strong{
+    font-weight: bold;
+}
+.border{
+    border: 1px solid white;
+}
+.p-l-r-14{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.top-nav{
+    position: fixed;
+    width: 100%;
+    max-height: 40px;
+    color: white;
+    background-color: rgb(14, 13, 13);
+    overflow: hidden;
+    z-index: 999;
+    border-radius: 20px;
+}
+.top-nav div div{
+    float: left;
+}
+.txt-center{
+    margin-left: calc(100% - 50%);
+    transform: translate(-70%,0);
+}
+.no-display{
+    display: none;
+}
+.top-img{
+    border-right: 3px solid white;
+}
+@media( max-width : 750px )
+{
+    .side-nav{
+        margin-left: -254px;
+        transition: 0.5s;
+        /* box-shadow: none; */
+    }
+    .content{
+        margin-left: 0px;
+    }
+    .top-nav{
+        display: block;
+        transition: 1s;
+    }
+    .side-nav{
+        margin-top: 40px;
+    }
+    .top{
+        margin-top: 40px;
+    }
+    .social-media{
+        margin-bottom: 40px;
+    }
+}

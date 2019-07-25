@@ -1,0 +1,52 @@
+.h{
+    height: 100%;
+}
+.body-bg{
+    background-size: cover;
+    height: 100vh;
+}
+.nav{
+    font-size: 20px;
+}
+.nav div a{
+    color: white;
+}
+.bg
+{
+    background-color: aqua;
+}
+.img
+{
+    border-radius: 50%;
+}
+.activity-box{
+    min-height: 80px;
+      width: 200px;
+    background-color: blue;
+    text-align: center;
+
+}
+.chat
+{
+    min-height: 80px;
+    width: 200px;
+ background-color: brown;
+  text-align: center;
+
+}  
+
+.friendcircle-box
+{
+    min-height: 400px;
+width: 130;
+}
+.p-top-10
+{
+    padding-top: 20px;
+}
+.side-nav{
+    position: fixed;
+    width: 250px;
+    background-color: black;
+    height: 100%;
+}

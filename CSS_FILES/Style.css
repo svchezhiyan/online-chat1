@@ -1,0 +1,57 @@
+#signin-pannel{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#signin-pannel div{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top:10px;
+}
+#signin-pannel div button{
+    background-color: rgb(23, 23, 167);
+    color:white;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 5%;
+}
+#username{
+    height:30px;
+    width:200px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 30px;
+    background-image: url("/project/OnlineChat/icons/user.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+}
+#psd{
+    height:30px;
+    width:200px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-right:30px;
+}
+#username{
+    height:30px;
+    width:200px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-right: 30px;
+}
+#update-pannel{
+    text-align: center;
+    color:darkslategray;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.box
+{
+    width:300px;
+    height: 100px;
+    border:5px solid blue;
+    
+}

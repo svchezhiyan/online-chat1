@@ -1,0 +1,70 @@
+body{
+    background-color:rgb(231, 228, 228);
+}
+#nav-menu{
+    background-color:black;
+    overflow: hidden;
+    box-shadow:0px 5px 18px 0px rgba(0,0,0,0.5);
+    top:0px;
+}
+#nav-menu div{
+    float:left;
+}
+#nav-menu div a{
+    display: block;
+    padding: 10px;
+    color:white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration:none;
+}
+#nav-menu div button{
+    display: block;
+    padding: 10px;
+}
+#nav-menu div a:hover{
+    background-color: rgb(54, 52, 52);
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 5%;
+}
+#sub-nav{
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow:0px 8px 18px 0px rgba(0,0,0,0.5);
+    z-index:1;
+}
+#sub-nav div{
+    float: none;
+}
+#nav-menu div:hover #sub-nav{
+    display: block;
+}
+#sub-nav div button{
+    display:block;padding:10px;font-size:20px;background-color:inherit;color:white;border:none;
+}
+#active{
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 5%;
+    float: right;
+    animation-name: active;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-delay: 1s;
+}
+@keyframes active{
+    50%{
+        border-radius: 5%;
+    }
+    50%{
+        border-radius: 20%; 
+    }
+}
+#color-blink{
+    text-align: center;
+    font-size: 5vh;  
+    font-family: cursive;
+    color: darkslategray;   
+    box-shadow: 0px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
